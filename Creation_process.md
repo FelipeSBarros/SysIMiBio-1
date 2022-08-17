@@ -1,5 +1,6 @@
-# all creation process  
+# Proceso de desenvolvimento  
 
+Instalação moódulos necessários:  
 ```
 pip install django
 django-admin startproject sysimibio .

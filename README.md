@@ -2,12 +2,16 @@
 
 Sistema de gestión de conocimiento, datos ecológicos y de biodiversidad del [IMiBio](www.imibio.misiones.gob.ar).
 
-Items:
+Aplicaciones:  
+* [Bibliography](./README_bibliography.md)  
+* [Bioblitz](./README_bioblitz.md)   
+* [PPI](./README_imibio_tree_ecological_data.md)  
+
+Desarrollo:  
 * [como desarrollar](#como-desarrollar)
 * [Deploy en Heroku](#Deploy-en-Heroku)
 * [APPs](#APPs)
 * [Base de datos](#Base-de-datos)
-* [Proceso de desarrollo](#Proceso-de-desarrollo)
 
 ## como desarrollar
 1. Haga un *clone* del repositorio
@@ -27,6 +31,8 @@ cp contrib/env-semple .env
 python manage test 
 ```
 
+Más al respecto del [proceso de desarrolo](./Creation_process.md)
+
 ## Deploy en Heroku
 
 1. crie una instancia en [heroku](www.heroku.com)
@@ -37,7 +43,7 @@ python manage test
 ```console
 heroku create minhainstancia
 heroku config:push
-heroku config:set SECRET_KEY=`ýthon contrib/secret_gen.py`
+-heroku config:set SECRET_KEY=`ýthon contrib/secret_gen.py`
 heroku config:set DEBUG=False
 gut push heroku master --force
 ```
@@ -55,7 +61,3 @@ gut push heroku master --force
 ## Base de datos
 
 > crear vision general de las bases
-
-## Proceso de desarrollo
-
-Más al respecto del [proceso de desarrolo](./Creation_process.md)
