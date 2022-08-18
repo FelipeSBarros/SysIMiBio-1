@@ -1,5 +1,6 @@
-# Bioblitz app  
-La app `bioblitz` hace parte del sistema de gestión de datos de biodiversidad del IMIBIO. Fue creada para rescatas datos e informaciones al respecto de las actividades de ciencia ciudadanas, también conocidas como *bioblitz*, y que son desarrolladas por la institución utilizando los servicios y el sistema de [INaturalist](https://www.inaturalist.org).
+# Sistema de gestión de datos de ciencia ciudadana (*Bioblitz*)  
+
+La app `bioblitz` hace parte del sistema de gestión de datos y conocimientos ambientales y de biodiversidad del IMIBIO. Fue creada para rescatas datos e informaciones al respecto de las actividades de ciencia ciudadanas, también conocidas como *bioblitz*, y que son desarrolladas por la institución utilizando los servicios y el sistema de [INaturalist](https://www.inaturalist.org).
 
 Para pode acceder al las informaciones del proyecto bien como las observaciones relacionadas a los mismos, se hace uso de `slug` o`project_id` del proyecto.
 

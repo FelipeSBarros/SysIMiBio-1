@@ -1,8 +1,6 @@
-# Bibliography app
+# Sistema de gestión de datos bibliográficos  
 
-## Publicaciones
-
-La app `bibliography` hace parte del sistema de gestión de conocimiento del IMiBio. Fue creada para registrar informaciones al respecto de libros, artículos u otros tipos de publicaciones, principalmente científicas. 
+La app `bibliography` hace parte del sistema de gestión de datos y conocimientos ambientales y de biodiversidad del IMIBIO. Fue creada para registrar informaciones al respecto de libros, artículos u otros tipos de publicaciones, principalmente científicas. 
 Los datos cargados en el formulário, pasa por un proceso de [validación y limpieza](#validadores-y-limpieza), con el objetivo de garantizar la consistencia de los datos cargados.
 Además, la app posee la capacidad de rescatar información oficial de las publicaciones que tienen [DOI (Digital Object Identification)](https://www.doi.org/) o [ISBN (International Standard Book)](https://www.isbn.org.ar/). Aquellas publicaciones que no poseen DOI ni ISBN, podrán ser cargadas siendo necesário que el usuário registre todas las informaciones obligatórias de manera manual, es decir: `título`, `autor` y `año de publicación`. **En dichos casos, el sistema no aceptará registro de publicaciones sin estas informaciones.**
 
